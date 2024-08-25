@@ -43,8 +43,8 @@ const AboutPage = () => {
             <p className="text-lg">
               “As a passionate web developer, I bring a deep understanding of
               NextJS to every project. With a focus on creating intuitive and
-              visually appealing user interfaces, I've successfully developed
-              numerous websites for clients across various industries. I'm
+              visually appealing user interfaces, I&lsquo;ve successfully developed
+              numerous websites for clients across various industries. Im
               always eager to stay up-to-date with the latest web technologies
               and explore new challenges.”
             </p>
