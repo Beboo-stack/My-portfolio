@@ -89,24 +89,18 @@ const Navbar = () => {
         </Link>
       </div>
       {/* SOCIAL */}
-      <div className="hidden md:flex gap-4 w-1/3">
-        <Link href="/">
-          <Image src="/github.png" alt="" width={24} height={24} />
+      <div className="hidden md:flex gap-5 w-1/3">
+        <Link target="_blank" href="https://www.instagram.com/peter_1.12/">
+          <Image src="/instagram.png" alt="" width={35} height={24} />
         </Link>
-        <Link href="/">
-          <Image src="/dribbble.png" alt="" width={24} height={24} />
+        <Link target="_blank" href="https://www.facebook.com/peter.koko.716">
+          <Image src="/facebook.png" alt="" width={35} height={24} />
         </Link>
-        <Link href="/">
-          <Image src="/instagram.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
-          <Image src="/facebook.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
-          <Image src="/pinterest.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
-          <Image src="/linkedin.png" alt="" width={24} height={24} />
+        <Link
+          target="_blank"
+          href="https://www.linkedin.com/in/peter-alber-26ba1a1ba/"
+        >
+          <Image src="/linkedin.png" alt="" width={35} height={24} />
         </Link>
       </div>
       {/* RESPONSIVE MENU */}
@@ -149,6 +143,34 @@ const Navbar = () => {
                 <Link href={link.url}>{link.title}</Link>
               </motion.div>
             ))}
+            <motion.div variants={listItemVariants} className="w-1/3 mx-auto  ">
+              <ul className="flex gap-6 justify-center">
+                <li>
+                  <Link
+                    target="_blank"
+                    href="https://www.instagram.com/peter_1.12/"
+                  >
+                    <Image src="/instagram.png" alt="" width={35} height={30} />
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    target="_blank"
+                    href="https://www.facebook.com/peter.koko.716"
+                  >
+                    <Image src="/facebook.png" alt="" width={35} height={24} />
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    target="_blank"
+                    href="https://www.linkedin.com/in/peter-alber-26ba1a1ba/"
+                  >
+                    <Image src="/linkedin.png" alt="" width={35} height={24} />
+                  </Link>
+                </li>
+              </ul>
+            </motion.div>
           </motion.div>
         )}
       </div>

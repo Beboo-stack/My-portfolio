@@ -5,8 +5,9 @@ import TransitionProvider from "@/components/transitionProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Lama Dev Portfolio App",
-  description: "The best animated portfolio page",
+  title: "Peter Portfolio App",
+  description:
+    "Passionate about creating user-friendly React interfaces. Check out my portfolio.",
 };
 
 export default function RootLayout({ children }) {
